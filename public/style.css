@@ -1,7 +1,15 @@
-:root
+:root{
+    --dark-mode-bgcolor: #4C0033;
+    --dark-mode-text-color:#960064;
+    --dark-mode-accent-color:#5b033c;
+    --dark-mode-accent-color2:#E80F88;
+    --dark-mode-accent-color3:#ff55b2;
+
+}
 
 body{
-    background-color:plum;
+    background-color:var(--dark-mode-bgcolor);
+    color: var(--dark-mode-text-color);
 }
 
 header{
@@ -17,7 +25,7 @@ main{
     margin-top: 2em;
     height: 20em;
     width: 15em;
-    background-color: rgb(164, 102, 164);
+    background-color:var(--dark-mode-accent-color)
     
 }
 
