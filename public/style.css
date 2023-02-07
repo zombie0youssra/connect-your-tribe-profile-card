@@ -1,0 +1,40 @@
+:root
+
+body{
+    background-color:plum;
+}
+
+header{
+    text-align: center;
+    
+}
+
+main{
+   
+}
+
+.card{
+    margin-top: 2em;
+    height: 20em;
+    width: 15em;
+    background-color: rgb(164, 102, 164);
+    
+}
+
+.card-img{
+    height: 20em;
+    width: 15em;
+}
+
+.card-character{
+    display: none;
+    height: 20em;
+    width: 15em;
+}
+
+.card-titel{
+    height: 3em;
+    width: 5;
+}
+
+
