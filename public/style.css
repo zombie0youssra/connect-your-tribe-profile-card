@@ -37,4 +37,17 @@ main{
     width: 5;
 }
 
+.text {
+    opacity: 1;
+    font-size: 25px;
+    margin-bottom: 2em;
+    transition: all 360ms ease-out;
+    transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transform: translateY(100%);
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
