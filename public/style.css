@@ -28,15 +28,6 @@ body::-webkit-scrollbar-thumb{
     background: var(--dark-mode-text-color);
 }
 
-header{
-    text-align: center;
-    
-}
-
-main{
-    margin-left: 8em;
-}
-
 .navbar{
     width: 6em;
     height: 100vh;
@@ -79,22 +70,28 @@ main{
     display: block;
 }
 
+
 .nav-link:hover{
     color: var(--dark-mode-accent-color2);
 }
 
+.titel{
+    margin-left: 8em;
+    display: flex;
+}
+
+main {
+    margin-left: 8em;
+    display: flex;
+    flex-direction: column;
+}
 
 .card{
-    height: 20em;
-    width: 15em;
+    height: 23em;
+    width: 18em;
     background-color:var(--dark-mode-accent-color)
     
 }
-
-.card:hover{
-    
-    }
-
 
 .card-img{
     height: 20em;
@@ -102,7 +99,5 @@ main{
 }
 
 @media screen and (min-width: 600px) {
-    main{
     
-    }
 }
