@@ -3,12 +3,13 @@
     --dark-mode-bgcolor2:#060324;
     --dark-mode-text-color: #5B8FB9;
     --dark-mode-accent-color:#301E67;
-    --dark-mode-accent-color2:#B6EADA;
+    --dark-mode-accent-color2:#b6ceea;
     --dark-mode-accent-color3:#DEFCF9;
 
 }
 
 body{
+    font-family: 'Poppins';
     background-color:var(--dark-mode-bgcolor);
     color: var(--dark-mode-text-color);
     margin: 0;
@@ -51,6 +52,35 @@ main{
     flex-direction: column;
     align-items: center;
     height: 100%;
+}
+
+.nav-item{
+    width: 100%;
+}
+
+.nav-link{
+    display: flex;
+    align-items:center;
+    height: 6em;
+    color: var(--dark-mode-text-color);
+    text-decoration: none;
+}
+
+.link-text{
+    display: none;
+    margin-left: 1.5em;
+}
+
+.navbar:hover{
+    width: 10em ;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}
+
+.nav-link:hover{
+    color: var(--dark-mode-accent-color2);
 }
 
 
