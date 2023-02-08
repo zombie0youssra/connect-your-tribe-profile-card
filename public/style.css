@@ -1,15 +1,30 @@
 :root{
-    --dark-mode-bgcolor: #4C0033;
-    --dark-mode-text-color:#960064;
-    --dark-mode-accent-color:#5b033c;
-    --dark-mode-accent-color2:#E80F88;
-    --dark-mode-accent-color3:#ff55b2;
+    --dark-mode-bgcolor: #0c063e;
+    --dark-mode-bgcolor2:#060324;
+    --dark-mode-text-color: #5B8FB9;
+    --dark-mode-accent-color:#301E67;
+    --dark-mode-accent-color2:#B6EADA;
+    --dark-mode-accent-color3:#DEFCF9;
 
 }
 
 body{
     background-color:var(--dark-mode-bgcolor);
     color: var(--dark-mode-text-color);
+    margin: 0;
+    padding:0 ;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25em
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--dark-mode-accent-color);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--dark-mode-text-color);
 }
 
 header{
@@ -18,44 +33,37 @@ header{
 }
 
 main{
-   
+    margin-left: 8em;
 }
 
+.navbar{
+    width: 6em;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--dark-mode-bgcolor2);
+}
+
+
+
 .card{
-    margin-top: 2em;
     height: 20em;
     width: 15em;
     background-color:var(--dark-mode-accent-color)
     
 }
 
+.card:hover{
+    
+    }
+
+
 .card-img{
     height: 20em;
     width: 15em;
 }
 
-.card-character{
-    display: none;
-    height: 20em;
-    width: 15em;
+@media screen and (min-width: 600px) {
+    main{
+    
+    }
 }
-
-.card-titel{
-    height: 3em;
-    width: 5;
-}
-
-.text {
-    opacity: 1;
-    font-size: 25px;
-    margin-bottom: 2em;
-    transition: all 360ms ease-out;
-    transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-    transform: translateY(100%);
-}
-
-.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
