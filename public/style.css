@@ -5,6 +5,12 @@
     --dark-mode-accent-color:#301E67;
     --dark-mode-accent-color2:#b6ceea;
     --dark-mode-accent-color3:#DEFCF9;
+    --light-mode-bgcolor:#579BB1;
+    --light-mode-bgcolor2:#E1D7C6;
+    --light-mode-text-color:#ECE8DD;
+    --light-mode-accent-color:#F8F4EA;
+    --light-mode-accent-color2:#FFFFD0;
+    --light-mode-accent-color3: #F3CCFF;
 
 }
 
@@ -72,7 +78,7 @@ body::-webkit-scrollbar-thumb{
 
 
 .nav-link:hover{
-    color: var(--dark-mode-accent-color2);
+    color: var(--dark-mode-accent-color3);
 }
 
 .titel{
