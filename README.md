@@ -2,6 +2,7 @@
 
 # Visitekaart 🎤
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/112857270/218055706-2fd48e62-d610-44ef-a3d3-fff310771c12.png">
 
 ## Inhoudsopgave
 
