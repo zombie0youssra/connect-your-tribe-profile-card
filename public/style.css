@@ -55,12 +55,17 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
 }
 
+
 .nav-link{
     display: flex;
     align-items:center;
     height: 6em;
     color: var(--dark-mode-text-color);
     text-decoration: none;
+}
+
+.nav-link i{
+    font-size: 25px;
 }
 
 .link-text{
@@ -104,6 +109,11 @@ main {
     margin-top: -2em;
     height: 25em;
     width: 18em;
+}
+
+.info{
+    margin-top: 2em;
+    width: 15em;
 }
 
 @media screen and (min-width: 600px) {

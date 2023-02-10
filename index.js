@@ -6,8 +6,10 @@ const app = express();
 
 // get info form api
 
-// const url=
-// const data= await fetch (url).then((response)=> response.json()
+const url = "https://whois.fdnd.nl/api/v1/member/youssra-elmortai";
+const data = await fetch(url).then((response) => response.json());
+
+console.log(data);
 
 // Stel ejs in als template engine en geef de 'views' map door
 app.set("view engine", "ejs");
@@ -19,7 +21,7 @@ app.use(express.static("public"));
 // Maak een route voor de index
 app.get("/", function (req, res) {
   // res.send('Hello World!')
-  res.render("index");
+  res.render("index", data);
 });
 
 // Stel het poortnummer in waar express op gaat luisteren
