@@ -91,6 +91,7 @@ body::-webkit-scrollbar-thumb{
     display: flex;
 }
 
+
 main {
     margin-left: 8em;
     display: flex;
@@ -112,20 +113,14 @@ main {
 }
 
 .info{
-    margin-top: 1em;
+    margin-top: 0.2em;
     width: 15em;
 }
 
+
 .code{
-    margin-top: 1em;
+    margin-top: 0.4em;
 }
-
-.animation{
-
-    color: var(--dark-mode-accent-color3);
-}
-
-
 
 @media screen and (min-width: 600px) {
     
