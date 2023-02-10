@@ -112,9 +112,20 @@ main {
 }
 
 .info{
-    margin-top: 2em;
+    margin-top: 1em;
     width: 15em;
 }
+
+.code{
+    margin-top: 1em;
+}
+
+.animation{
+
+    color: var(--dark-mode-accent-color3);
+}
+
+
 
 @media screen and (min-width: 600px) {
     
