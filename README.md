@@ -15,7 +15,8 @@
 ## Beschrijving
 heb mijn visitekaart van sprint 1 opnieuw gemaakt in met node en daarna een nieuwe visitekaartje gemaakt in node
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
+<!-- Voeg een mooie poster visual toe 📸 --> <img width="287" alt="image" src="https://user-images.githubusercontent.com/112857270/218048166-ffc3532a-2355-455a-8891-354c15a47a08.png">
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 ![2248C69F-F947-4A0D-93FE-A889DA378B36](https://user-images.githubusercontent.com/112857270/217302946-11d4f37f-d21f-402a-8b6f-d62c33c3fed5.jpeg)
 
