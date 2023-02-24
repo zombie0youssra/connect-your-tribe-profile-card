@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Visitekaart 🎤
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<!-- Geef je project een titel en schrijf in één zin wat het is --> mijn vistiekaartje
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/112857270/218055706-2fd48e62-d610-44ef-a3d3-fff310771c12.png">
 
 ## Inhoudsopgave
@@ -13,7 +13,7 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
+## Beschrijving ✍
 heb mijn visitekaart van sprint 1 opnieuw gemaakt in met node en daarna een nieuwe visitekaartje gemaakt in node
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 --> 
@@ -21,11 +21,26 @@ heb mijn visitekaart van sprint 1 opnieuw gemaakt in met node en daarna een nieu
 ![2248C69F-F947-4A0D-93FE-A889DA378B36](https://user-images.githubusercontent.com/112857270/217302946-11d4f37f-d21f-402a-8b6f-d62c33c3fed5.jpeg)
 
 
-## Kenmerken
+## Kenmerken ☕
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+### tools
+- goodnotes
+- visuel studio code
 
-## Installatie
+### gerbuikte technieken
+- ejs
+- node.js
+- express
+- css
 
+
+## Installatie 👀
+1. Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: .
+2. Clone of download deze respository.
+3. Open hem in je `code-editor`.
+4. open de `terminal` en type `npm install`.
+5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live ziet.
+6. Live zetten van je project kan met behulp van cyclic.
 ## Gebruik
 
 ## Bronnen
