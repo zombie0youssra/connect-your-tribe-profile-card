@@ -41,9 +41,12 @@ heb mijn visitekaart van sprint 1 opnieuw gemaakt in met node en daarna een nieu
 4. open de `terminal` en type `npm install`.
 5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live ziet.
 6. Live zetten van je project kan met behulp van cyclic.
+
+
 ## Gebruik
 
 ## Bronnen
+de bronnen die ik heb gebruikt voor het maken van deze site zijn te vinden in mijn [WIKI](https://github.com/zombie0youssra/zombie0youssra-profile-card/wiki)
 
 ## Licentie
 
